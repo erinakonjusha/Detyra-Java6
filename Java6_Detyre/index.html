@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detyrat JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Detyrat 1 - 6</h2>
+
+    <!-- Detyra 1 -->
+    <button onclick="
+        let emri = prompt('Shkruaj emrin:');
+        let mosha = prompt('Shkruaj moshën:');
+        alert('Përdoruesi quhet ' + emri + ' dhe është ' + mosha + ' vjeç.');
+    ">Detyra 1</button><br>
+
+    <!-- Detyra 2 -->
+    <button onclick="
+        let nr1 = Number(prompt('Shkruaj numrin e parë:'));
+        let nr2 = Number(prompt('Shkruaj numrin e dytë:'));
+        let shuma = nr1 + nr2;
+        alert('Shuma është: ' + shuma);
+    ">Detyra 2</button><br>
+
+    <!-- Detyra 3 -->
+    <button onclick="
+        let nr = Number(prompt('Shkruaj një numër:'));
+        if (nr % 2 === 0) {
+            alert('Numri është çift.');
+        } else {
+            alert('Numri është tek.');
+        }
+    ">Detyra 3</button><br>
+
+    <!-- Detyra 4 -->
+    <button onclick="
+        let fjala1 = prompt('Shkruaj fjalën e parë:');
+        let fjala2 = prompt('Shkruaj fjalën e dytë:');
+        alert('Fjalia është: ' + fjala1 + ' ' + fjala2);
+    ">Detyra 4</button><br>
+
+    <!-- Detyra 5 -->
+    <button onclick="
+        let f1 = prompt('Shkruaj fjalën e parë:');
+        let f2 = prompt('Shkruaj fjalën e dytë:');
+        alert('Fjala e përsëritur është: ' + f1 + ' ' + f2);
+    ">Detyra 5</button><br>
+
+    <!-- Detyra 6 -->
+    <button onclick="
+        let ushqimi = prompt('Çfarë hëngre për mëngjes?');
+        let pija = prompt('Çfarë pive për mëngjes?');
+        alert('Ti hëngre ' + ushqimi + ' dhe pive ' + pija + '.');
+    ">Detyra 6</button>
+
+</div>
+
+</body>
+</html>
