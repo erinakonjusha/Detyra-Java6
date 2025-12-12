@@ -1,0 +1,70 @@
+body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        #paragrafi1 {
+            font-size: 20px;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+        }
+
+        #butoni1 {
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #kuti {
+            width: 200px;
+            padding: 20px;
+            margin-top: 10px;
+            background: white;
+            border-radius: 5px;
+        }
+
+        h2 {
+            margin: 5px 0;
+        }
+
+        .greenPara {
+            padding: 5px;
+            background: #e7ffe7;
+            border-left: 4px solid green;
+            margin-bottom: 5px;
+        }
+
+        .countPara {
+            padding: 5px;
+            background: #fff0e6;
+            border-left: 4px solid orange;
+            margin-bottom: 5px;
+        }
+
+        #rezultati {
+            font-weight: bold;
+            color: #444;
+            padding: 10px;
+            background: white;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .item {
+            font-size: 18px;
+            margin: 3px 0;
+        }
